@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Weibo Automation</title>
+<link rel="stylesheet" href='js/dojo/dijit/themes/claro/claro.css'
+	media="screen" type="text/css" />
+<link rel="stylesheet" href="js/dojo/dijit/themes/claro/document.css" />
+<link rel="stylesheet" href='css/style.css' media="screen"
+	type="text/css" />
+<script type="text/javascript" src='js/dojo/dojo/dojo.js'
+	djConfig="parseOnLoad:true, isDebug:true, locale:'zh-cn'">
+        </script>
+<!-- 
+        <script type="text/javascript" src='js/dojo/temai/admin/player/Player.js'>
+        </script>
+         -->
+<script type="text/javascript" src='js/dojo/dojo/weibo.js'>
+        </script>
+</head>
+<body class="claro">
+	<div id="player"></div>
+	<script type="text/javascript">
+
+            dojo.addOnLoad(function(){
+                var player = new temai.admin.player.Player({}, dojo.byId("player"));
+                player.startup();
+            });
+        </script>
+</body>
+</html>

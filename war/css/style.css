@@ -1,0 +1,14 @@
+@import "../js/dojo/temai/admin/menu/css/MenuTree.css";
+
+@import "../js/dijit/themes/claro/claro.css";
+
+@import "../js/dijit/themes/claro/claro_rtl.css";
+
+@import "../js/dojo/dojox/grid/resources/Grid.css";
+
+@import "../js/dojo/dojox/grid/resources/claroGrid.css";
+
+@import "../js/dojo/dojox/grid/enhanced/resources/Pagination.css";
+
+@import
+	"../js/dojo/dojox/grid/enhanced/resources/claro/EnhancedGrid.css";

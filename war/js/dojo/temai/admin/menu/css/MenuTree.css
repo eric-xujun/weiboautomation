@@ -1,0 +1,29 @@
+.topLevel {
+	background: url('../img/topLevel.png') no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.weiboMgr {
+	background: url('../img/weibo.png') no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.folder {
+	background: url('../img/folder.png') no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.schema {
+	background: url('../img/schema.png') no-repeat;
+	width: 16px;
+	height: 16px;
+}
+
+.category {
+	background: url('../img/category.png') no-repeat;
+	width: 16px;
+	height: 16px;
+}

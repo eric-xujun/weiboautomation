@@ -1,0 +1,36 @@
+{
+	identifier: 'id',
+	label: 'name',
+	items: [
+		        {
+		          id: 'allMenuItem', 
+		          name:'总菜单', 
+		          type:'topLevel',
+		          children:[
+		          				{_reference:'weiboMgrMenuItem'}
+		          			] 
+		        },
+		        { 
+		          id: 'weiboMgrMenuItem', 
+		          name:'微博管理', 
+		          type:'folder',
+		          url:'rest/websites',
+		          children:[ {_reference:'weiboAccountMgrMenuItem'}, {_reference:'referenceAccountMgrMenuItem'}, {_reference:'UploadFileMenuItem'} ]
+		        },
+		        { 
+		          id: 'weiboAccountMgrMenuItem', 
+		          name:'微博帐号管理', 
+		          type:'item'
+		        },
+		        { 
+		          id: 'referenceAccountMgrMenuItem', 
+		          name:'关联帐号管理', 
+		          type:'item' 
+		        },
+		        { 
+		          id: 'UploadFileMenuItem', 
+		          name:'文件上传', 
+		          type:'item' 
+		        }
+	        ]
+}
